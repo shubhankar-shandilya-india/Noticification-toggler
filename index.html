@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+
+</style>
+
+<body>
+    <div class='w-full flex justify-center'>
+        <div></div>
+        <div class='w-[90vw] sm:w-[70vw] md:w-[40vw] xl:w-[30vw] 2xl:w-[25vw] flex flex-col items-center '>
+            <img class='h-10 my-5' src="./logo.png" alt="JACK&JONES" />
+            <div class='bg-slate-200  h-px w-full'></div>
+            <div class='text-sm text-slate-500 my-1'>Notification setting for</div>
+            <div class='font-semibold mb-1'>Customerid@gmail.com</div>
+            <div class='font-semibold mb-2'>+91 9876543210</div>
+            <div class=' text-sm lg:text-base'>Update your notification preferences for our</div>
+            <div class=''>communication channels</div>
+
+            <table class="w-full mb-2 border-separate border-spacing-y-3 ">
+                <thead>
+                    <tr>
+                        <td class="text-center py-1 rounded-l-lg rounded-r-lg"></td>
+                        <td class="text-center py-1 text-slate-500">Promotional</td>
+                        <td class="text-center py-1 rounded-r-lg text-slate-500">Transactional</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="py-5 bg-slate-100 border border-slate-950">
+                        <td class="border border-r-0 border-slate-300 pl-3 py-3 font-semibold rounded-l-lg">SMS
+                        </td>
+                        <td class="border border-l-0 border-r-0 border-slate-300 py-3">
+                            <label class="flex justify-center items-center gap-4 cursor-pointer">
+                                <input type="checkbox" id="toggle1" class="toggle hidden" />
+                                <div
+                                    class="relative w-14 h-7 bg-gray-300 rounded-full p-1 transition-colors toggle-div1">
+                                    <div id="slider1"
+                                        class="slider absolute w-5 h-5 bg-white rounded-full transition-transform transform">
+                                    </div>
+                                </div>
+                            </label>
+                        </td>
+                        <td class="border border-l-0 border-slate-300 py-3 rounded-r-lg">
+                            <label class="flex justify-center items-center gap-4 cursor-pointer">
+                                <input type="checkbox" id="toggle2" class="toggle hidden" />
+                                <div
+                                    class="relative w-14 h-7 bg-gray-300 rounded-full p-1 transition-colors toggle-div2">
+                                    <div id="slider2"
+                                        class="slider absolute w-5 h-5 bg-white rounded-full transition-transform transform">
+                                    </div>
+                                </div>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr class="py-5 bg-slate-100 border border-slate-950">
+                        <td class="border border-r-0 border-slate-300 pl-3 py-3 font-semibold rounded-l-lg">Whatsapp
+                        </td>
+                        <td class="border border-l-0 border-r-0 border-slate-300 py-3">
+                            <label class="flex justify-center items-center gap-4 cursor-pointer">
+                                <input type="checkbox" id="toggle3" class="toggle hidden" />
+                                <div
+                                    class="relative w-14 h-7 bg-gray-300 rounded-full p-1 transition-colors toggle-div3">
+                                    <div id="slider3"
+                                        class="slider absolute w-5 h-5 bg-white rounded-full transition-transform transform">
+                                    </div>
+                                </div>
+                            </label>
+                        </td>
+                        <td class="border border-l-0 border-slate-300 py-3 rounded-r-lg">
+                            <label class="flex justify-center items-center gap-4 cursor-pointer">
+                                <input type="checkbox" id="toggle4" class="toggle hidden" />
+                                <div
+                                    class="relative w-14 h-7 bg-gray-300 rounded-full p-1 transition-colors toggle-div4">
+                                    <div id="slider4"
+                                        class="slider absolute w-5 h-5 bg-white rounded-full transition-transform transform">
+                                    </div>
+                                </div>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr class="py-5 bg-slate-100 border border-slate-950">
+                        <td class="border border-r-0 border-slate-300 pl-3 py-3 font-semibold rounded-l-lg">Email
+                        </td>
+                        <td class="border border-l-0 border-r-0 border-slate-300 py-3">
+                            <label class="flex justify-center items-center gap-4 cursor-pointer">
+                                <input type="checkbox" id="toggle5" class="toggle hidden" />
+                                <div
+                                    class="relative w-14 h-7 bg-gray-300 rounded-full p-1 transition-colors toggle-div5">
+                                    <div id="slider5"
+                                        class="slider absolute w-5 h-5 bg-white rounded-full transition-transform transform">
+                                    </div>
+                                </div>
+                            </label>
+                        </td>
+                        <td class="border border-l-0 border-slate-300 py-3 rounded-r-lg">
+                            <label class="flex justify-center items-center gap-4 cursor-pointer">
+                                <input type="checkbox" id="toggle6" class="toggle hidden" />
+                                <div
+                                    class="relative w-14 h-7 bg-gray-300 rounded-full p-1 transition-colors toggle-div6">
+                                    <div id="slider6"
+                                        class="slider absolute w-5 h-5 bg-white rounded-full transition-transform transform">
+                                    </div>
+                                </div>
+                            </label>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <button
+                class='px-6 transition duration-300 mb-2 w-full sm:w-fit bg-blue-600 hover:bg-blue-500 py-2 font-medium text-white rounded-md'>Save
+                Preferences
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
